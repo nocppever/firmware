@@ -23,7 +23,7 @@ class SystemMonitor:
 
 def start_server(monitor):
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    server_socket.bind(('0.0.0.0', 12345))  # Listen on all available interfaces
+    server_socket.bind(('0.0.0.0', 12345))  
     server_socket.listen(1)
 
     print("Server listening on port 12345")
@@ -38,7 +38,7 @@ def start_server(monitor):
                 metrics = monitor.get_metrics()
                 json_data = json.dumps(metrics)
                 client_socket.send(json_data.encode() + b'\n')
-                time.sleep(1)  # Send data every second
+                time.sleep(1)  
             except:
                 break
 

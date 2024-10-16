@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "../../../../.."
+		},
+		{
+			"name": "custom firmware",
+			"path": "../../custom firmware"
+		},
+		{
+			"name": "firmware",
+			"path": ".."
+		}
+	]
+}

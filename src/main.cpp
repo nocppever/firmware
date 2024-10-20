@@ -3,7 +3,7 @@
 #include <ArduinoJson.h>
 
 const char* ssid = "Freebox-C2F799";
-const char* password = "k2br9qc4z6qfcr6nq2mmsd";
+const char* password = "";
 const char* server_ip = "192.168.1.73";
 const int server_port = 12345;
 
